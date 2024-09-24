@@ -1,0 +1,11 @@
+function celsiusToFahrenheit() {
+    let celsius = parseFloat(document.getElementById('celsius-input').value);
+    let fahrenheit = (celsius * 9/5) + 32;
+    document.getElementById('fahrenheit-output').textContent = fahrenheit.toFixed(2);
+   }
+   
+   function fahrenheitToCelsius() {
+    let fahrenheit = parseFloat(document.getElementById('fahrenheit-input').value);
+    let celsius = (fahrenheit - 32) * 5/9;
+    document.getElementById('celsius-output').textContent = celsius.toFixed(2);
+   }

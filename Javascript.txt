@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+   }
+   
+   h2 {
+    margin-bottom: 20px;
+   }
+   
+   input {
+    width: 100px;
+    margin-right: 10px;
+   }
+   
+   span {
+    margin-right: 10px;
+   }
